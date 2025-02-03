@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameAccentColor</string>
+			<key>relativePath</key>
+			<string>./ThemeColors/AccentColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>accent</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameBackgroundColor</string>
+			<key>relativePath</key>
+			<string>./ThemeColors/BackgroundColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>background</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameGreenColor</string>
+			<key>relativePath</key>
+			<string>./ThemeColors/GreenColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>green</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameRedColor</string>
+			<key>relativePath</key>
+			<string>./ThemeColors/RedColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>red</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameSecondaryTextColor</string>
+			<key>relativePath</key>
+			<string>./ThemeColors/SecondaryTextColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>secondaryText</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCoingecko</string>
+			<key>relativePath</key>
+			<string>./images/coingecko.imageset</string>
+			<key>swiftSymbol</key>
+			<string>coingecko</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLogo</string>
+			<key>relativePath</key>
+			<string>./images/logo.imageset</string>
+			<key>swiftSymbol</key>
+			<string>logo</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/SwiftUI Crypto/SwiftUI Crypto/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLogoTransparent</string>
+			<key>relativePath</key>
+			<string>./images/logo-transparent.imageset</string>
+			<key>swiftSymbol</key>
+			<string>logoTransparent</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>
