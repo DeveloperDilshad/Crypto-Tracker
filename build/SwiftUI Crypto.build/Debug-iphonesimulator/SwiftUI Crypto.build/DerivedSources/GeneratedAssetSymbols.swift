@@ -27,14 +27,14 @@ extension DeveloperToolsSupport.ColorResource {
     /// The "AccentColor" asset catalog color resource.
     static let accent = DeveloperToolsSupport.ColorResource(name: "AccentColor", bundle: resourceBundle)
 
+    /// The "AppGreenColor" asset catalog color resource.
+    static let appGreen = DeveloperToolsSupport.ColorResource(name: "AppGreenColor", bundle: resourceBundle)
+
+    /// The "AppRedColor" asset catalog color resource.
+    static let appRed = DeveloperToolsSupport.ColorResource(name: "AppRedColor", bundle: resourceBundle)
+
     /// The "BackgroundColor" asset catalog color resource.
     static let background = DeveloperToolsSupport.ColorResource(name: "BackgroundColor", bundle: resourceBundle)
-
-    /// The "GreenColor" asset catalog color resource.
-    static let green = DeveloperToolsSupport.ColorResource(name: "GreenColor", bundle: resourceBundle)
-
-    /// The "RedColor" asset catalog color resource.
-    static let red = DeveloperToolsSupport.ColorResource(name: "RedColor", bundle: resourceBundle)
 
     /// The "SecondaryTextColor" asset catalog color resource.
     static let secondaryText = DeveloperToolsSupport.ColorResource(name: "SecondaryTextColor", bundle: resourceBundle)
@@ -73,6 +73,24 @@ extension AppKit.NSColor {
 #endif
     }
 
+    /// The "AppGreenColor" asset catalog color.
+    static var appGreen: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .appGreen)
+#else
+        .init()
+#endif
+    }
+
+    /// The "AppRedColor" asset catalog color.
+    static var appRed: AppKit.NSColor {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .appRed)
+#else
+        .init()
+#endif
+    }
+
     /// The "BackgroundColor" asset catalog color.
     static var background: AppKit.NSColor {
 #if !targetEnvironment(macCatalyst)
@@ -81,10 +99,6 @@ extension AppKit.NSColor {
         .init()
 #endif
     }
-
-    #warning("The \"GreenColor\" color asset name resolves to a conflicting NSColor symbol \"green\". Try renaming the asset.")
-
-    #warning("The \"RedColor\" color asset name resolves to a conflicting NSColor symbol \"red\". Try renaming the asset.")
 
     /// The "SecondaryTextColor" asset catalog color.
     static var secondaryText: AppKit.NSColor {
@@ -112,6 +126,24 @@ extension UIKit.UIColor {
 #endif
     }
 
+    /// The "AppGreenColor" asset catalog color.
+    static var appGreen: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .appGreen)
+#else
+        .init()
+#endif
+    }
+
+    /// The "AppRedColor" asset catalog color.
+    static var appRed: UIKit.UIColor {
+#if !os(watchOS)
+        .init(resource: .appRed)
+#else
+        .init()
+#endif
+    }
+
     /// The "BackgroundColor" asset catalog color.
     static var background: UIKit.UIColor {
 #if !os(watchOS)
@@ -120,10 +152,6 @@ extension UIKit.UIColor {
         .init()
 #endif
     }
-
-    #warning("The \"GreenColor\" color asset name resolves to a conflicting UIColor symbol \"green\". Try renaming the asset.")
-
-    #warning("The \"RedColor\" color asset name resolves to a conflicting UIColor symbol \"red\". Try renaming the asset.")
 
     /// The "SecondaryTextColor" asset catalog color.
     static var secondaryText: UIKit.UIColor {
@@ -144,12 +172,14 @@ extension SwiftUI.Color {
     /// The "AccentColor" asset catalog color.
     static var accent: SwiftUI.Color { .init(.accent) }
 
+    /// The "AppGreenColor" asset catalog color.
+    static var appGreen: SwiftUI.Color { .init(.appGreen) }
+
+    /// The "AppRedColor" asset catalog color.
+    static var appRed: SwiftUI.Color { .init(.appRed) }
+
     /// The "BackgroundColor" asset catalog color.
     static var background: SwiftUI.Color { .init(.background) }
-
-    #warning("The \"GreenColor\" color asset name resolves to a conflicting Color symbol \"green\". Try renaming the asset.")
-
-    #warning("The \"RedColor\" color asset name resolves to a conflicting Color symbol \"red\". Try renaming the asset.")
 
     /// The "SecondaryTextColor" asset catalog color.
     static var secondaryText: SwiftUI.Color { .init(.secondaryText) }
@@ -161,6 +191,12 @@ extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
 
     /// The "AccentColor" asset catalog color.
     static var accent: SwiftUI.Color { .init(.accent) }
+
+    /// The "AppGreenColor" asset catalog color.
+    static var appGreen: SwiftUI.Color { .init(.appGreen) }
+
+    /// The "AppRedColor" asset catalog color.
+    static var appRed: SwiftUI.Color { .init(.appRed) }
 
     /// The "BackgroundColor" asset catalog color.
     static var background: SwiftUI.Color { .init(.background) }

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/dilshadp/Crypto/SwiftUI Crypto/Core/Home/View/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Portfolio",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Prices",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 27
+        }
+      }
+    ]
+  },
+  "version": 1
+}

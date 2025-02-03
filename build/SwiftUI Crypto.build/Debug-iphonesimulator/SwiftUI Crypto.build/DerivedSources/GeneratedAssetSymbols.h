@@ -12,14 +12,14 @@ static NSString * const ACBundleID AC_SWIFT_PRIVATE = @"Dilshad-P.SwiftUI-Crypto
 /// The "AccentColor" asset catalog color resource.
 static NSString * const ACColorNameAccentColor AC_SWIFT_PRIVATE = @"AccentColor";
 
+/// The "AppGreenColor" asset catalog color resource.
+static NSString * const ACColorNameAppGreenColor AC_SWIFT_PRIVATE = @"AppGreenColor";
+
+/// The "AppRedColor" asset catalog color resource.
+static NSString * const ACColorNameAppRedColor AC_SWIFT_PRIVATE = @"AppRedColor";
+
 /// The "BackgroundColor" asset catalog color resource.
 static NSString * const ACColorNameBackgroundColor AC_SWIFT_PRIVATE = @"BackgroundColor";
-
-/// The "GreenColor" asset catalog color resource.
-static NSString * const ACColorNameGreenColor AC_SWIFT_PRIVATE = @"GreenColor";
-
-/// The "RedColor" asset catalog color resource.
-static NSString * const ACColorNameRedColor AC_SWIFT_PRIVATE = @"RedColor";
 
 /// The "SecondaryTextColor" asset catalog color resource.
 static NSString * const ACColorNameSecondaryTextColor AC_SWIFT_PRIVATE = @"SecondaryTextColor";
